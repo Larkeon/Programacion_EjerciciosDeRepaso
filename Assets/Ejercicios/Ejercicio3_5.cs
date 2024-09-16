@@ -11,7 +11,7 @@ public class Ejercicio3_5 : MonoBehaviour
     void Start()
     {
         longitudCirc = 2 * pi * radio;
-        areaCirc = pi * radio / 2;
+        areaCirc = pi * Mathf.Pow(radio,2);
     }
 
     // Update is called once per frame
