@@ -8,18 +8,18 @@ public class Ejercicio7_6 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        while (numero >= -numero)
+        while (numero >= (numero) * (-1))
         {
             Debug.Log("El numero es " + numero);
             numero--;
         
         }
-        for (numero = numero; numero != -numero; numero--)
-        {
-            Debug.Log("El numero es " + numero);
-        
-        
-        }
+       // for (numero = numero; numero != -numero; numero--)
+       // {
+       //     Debug.Log("El numero es " + numero);
+       // 
+       // 
+       // }
     }
 
     // Update is called once per frame
